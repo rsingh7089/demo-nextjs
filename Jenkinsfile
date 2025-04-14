@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/rsingh7089/demo-nextjs.git'
+                git branch: 'main', url: 'https://github.com/rsingh7089/demo-nextjs.git'
             }
         }
 
